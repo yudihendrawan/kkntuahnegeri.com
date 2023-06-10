@@ -20,10 +20,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta property="og:image" content="/img/logo.png" />
-        <meta property="og:image:type" content="image/png" />
-        <meta property="og:image:width" content="250" />
-        <meta property="og:image:height" content="250" />
         <script async src="https://umami.ystudio.dev/script.js" data-website-id="f0ebfd0c-4f10-4ec0-8f8a-b61f459e35a6"></script>
       </head>
       <body className='bg-[#EDE0CE] dark:bg-[#1F2C4C]'>
