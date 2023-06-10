@@ -76,7 +76,7 @@
 
   body,
   .body {
-    @apply font-primary text-sm md:text-base dark:bg-red-500;
+    @apply font-primary text-sm md:text-base ;
   }
 
   /* #endregion  /**======== Default Typography =========== */
