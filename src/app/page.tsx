@@ -25,9 +25,12 @@ export default function Home() {
 
         <div className={clsx('layout mt-10', isLoaded && 'fade-in-start')} >
           {Sosials.map((sosial) => (
-            <UnstyledLink key={sosial.id} href={sosial.href} onClick={() => {
-              trackEvent(`Link: ${sosial.id}`, { type: 'link' })
-            }}>
+            <UnstyledLink
+              key={sosial.id}
+              href={sosial.href}
+              onClick={() => {
+                trackEvent(`Link: ${sosial.id}`, { type: 'link' })
+              }}>
               <div data-fade={sosial.dataFade} className="flex p-2 justify-between h-14 my-3 items-center layout bg-[#f9f6f0] dark:bg-[#374d86] shadow-md hover:scale-105 transition-all duration-75 rounded-sm flex-row"
               >
                 <div className="p-1 ">

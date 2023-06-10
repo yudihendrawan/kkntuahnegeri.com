@@ -9,6 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'Linktree KKN Tuah Negeri 2023',
   description: 'Linktree KKN Tuah Negeri 2023! Jelajahi berbagai informasi menarik, kegiatan inspiratif, dan prestasi yang dicapai oleh peserta KKN Tuah Negeri tahun 2023',
+  Image: ['/img/logo.png']
 }
 
 export default function RootLayout({
